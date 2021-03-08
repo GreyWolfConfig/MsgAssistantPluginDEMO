@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mblue">#18B4ED</color><!--浅蓝色-->
+    <color name="white">#FFFFFF</color>
+    <color name="ivory">#FFFFF0</color><!--象牙色	-->
+    <color name="lightyellow">#FFFFE0</color><!--亮黄色	-->
+    <color name="yellow">#FFFF00</color><!--黄色	-->
+    <color name="snow">#FFFAFA</color><!--雪白色	-->
+    <color name="floralwhite">#FFFAF0</color><!--花白色	-->
+    <color name="lemonchiffon">#FFFACD</color><!--柠檬绸色	-->
+    <color name="cornsilk">#FFF8DC</color><!--米绸色	-->
+    <color name="seashell">#FFF5EE</color><!--海贝色	-->
+    <color name="lavenderblush">#FFF0F5</color><!--淡紫红	-->
+    <color name="papayawhip">#FFEFD5</color><!--番木色	-->
+    <color name="blanchedalmond">#FFEBCD</color><!--白杏色	-->
+    <color name="black">#000000</color><!--黑色	-->
+    <color name="transparent">#00000000</color><!--全透明	-->
+    <color name="translucent_half">#21000000</color><!--半透明	-->
+    <color name="light_balck">#818181</color>
+
+    <color name="stroke_color">#2196F3</color>
+    <color name="circle_color">#1976D2</color>
+</resources>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WebActivity">
+    <item
+        android:id="@+id/action_cpoy_link"
+        android:orderInCategory="100"
+        android:title="复制链接"
+        app:showAsAction="always" />
+</menu>

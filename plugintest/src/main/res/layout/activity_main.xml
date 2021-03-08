@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical"
+    tools:context="com.ma.framework.demo.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/test_uin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入测试QQ"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/test_guin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入测试群号"
+                android:text="" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="bind"
+                android:text="连接主程序" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="unbind"
+                android:text="断开连接" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ping"
+                android:text="检测连接" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getInfo"
+                android:text="获取主程序信息" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="obtainHostData"
+                android:text="获取全部账号数据-异步" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="obtainHostDataSync"
+                android:text="获取全部数据-同步" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getTroop"
+                android:text="获取群信息" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getBuddy"
+                android:text="获取好友信息" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getAccountData"
+                android:text="获取某个账号的数据" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendBuddyMessage"
+                android:text="发好友消息 图文" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendBuddyMessageVoice"
+                android:text="发好友消息 语音" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendBuddyNudge"
+                android:text="发好友戳一戳" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendTroopMessage"
+                android:text="发群消息 图文" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendTroopMessageVoice"
+                android:text="发群消息 语音" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendTroopXml"
+                android:text="发群消息-XML" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendTroopJSON"
+                android:text="发群消息-JSON" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendTroopNudge"
+                android:text="发群-戳一戳" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendTroopMemberText"
+                android:text="发群成员消息" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="leaveTroop"
+                android:text="退群" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="deleteBuddy"
+                android:text="删除好友" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="removeTroopMember"
+                android:text="T群成员" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="shutupTroop"
+                android:text="全员禁言" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="shutupTroopPerson"
+                android:text="禁言某人" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="restoreShutupTroop"
+                android:text="解除全员禁言" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="restoreShutupTroopPerson"
+                android:text="解除禁言某人" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="modifyTroopMemberMark"
+                android:text="修改群成员马甲" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="getTroopMember"
+                android:text="获取群成员信息-异步" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="withDrawMsg"
+                android:text="撤回消息" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reqFavorite"
+                android:text="赞名片" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reqFavoriteList"
+                android:text="请求已赞列表" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="cardSwitch"
+                android:text="切换是否允许附近人点赞" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="cardNotifySwitch"
+                android:text="切换收到赞时是否通知我" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reqPraiseRank"
+                android:text="查询获赞排名-异步" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="queryTag"
+                android:text="查询个性标签" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reqFavTag"
+                android:text="赞个性标签" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reqVoterList"
+                android:text="获取谁赞过我" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="queryRobotOpen"
+                android:text="查询某个目标是否在主程序勾选了机器人" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="querySendOpen"
+                android:text="查询某个目标是否在主程序勾选了发送" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
